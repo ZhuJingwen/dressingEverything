@@ -1,0 +1,290 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  background-color: #AD64CB;
+  width:320px;
+
+    /*background-color: #34485E;*/
+/*
+    -webkit-appearance: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    -webkit-touch-callout: none; -webkit-user-select: none;*/
+}
+
+
+h1 {
+    font-size: 24pt;
+    font-family: inherit;
+    font-weight: 700;
+    color:#FFFFFF;
+    text-align: center center;
+}
+
+.choices {
+  width:100%;
+  	border: none;
+  	font-family: inherit;
+  	font-size: 24pt;
+    font-weight:300;
+    color: #FFFFFF;
+  	/*background: none;*/
+  	/*display: inline-block;*/
+  	/*text-transform: uppercase;*/
+  	letter-spacing: 1px;
+  	outline: none;
+  	/*position: relative;*/
+    text-align: left;
+  	-webkit-transition: all 0.2s;
+  	-moz-transition: all 0.2s;
+  	transition: all 0.2s;
+    height:71px;
+}
+
+/* TODO */
+input[type=range] {
+    width: 100%;
+}
+
+#mainPage {
+    text-align:center;
+    background-color: #AD64CB;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:100%;
+}
+
+#detailPage {
+  background-color: #34485E;
+    /*text-align:center;*/
+    /*font-size: 2em;*/
+    width:100%;
+
+}
+
+#detailHeader{
+  text-align:center center;
+  height:30px;
+}
+
+.mainButton {
+  background-color: #FFFFFF;
+  color: #AD64CB;
+  	border: none;
+  	font-family: inherit;
+  	font-size: 18pt;
+    font-weight: 300;
+  	/*cursor: pointer;*/
+  	padding: 12px 80px;
+  	display: inline-block;
+  	margin: 15px 30px;
+  	letter-spacing: 1px;
+
+  	outline: none;
+  	/*position: relative;*/
+  	-webkit-transition: all 0.2s;
+  	-moz-transition: all 0.2s;
+  	transition: all 0.2s;
+}
+#weatherButton {
+  background-color: #E68A3A;
+}
+
+#icecreamButton {
+  background-color: #E6695C;
+}
+
+#movieButton {
+  background-color: #E6B600;
+}
+
+#coffeeButton {
+  background-color: #2ECC71;
+}
+
+#beerButton {
+  background-color: #25CCA9;
+}
+
+#offButton {
+  background-color: #308DCC;
+}
+
+#disconnectButton {
+  background-color: #9858B3;
+  color:#FFFFFF;
+  width:100%;
+    border: none;
+    font-family: inherit;
+    font-size: 24pt;
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+    /*position: relative;*/
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    text-align: left;
+    height:71px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #fff;
+}
+
+#dressButton {
+  padding: 12px 40px;
+  display: inline-block;
+  margin-left: -7px;
+  margin-bottom: 0px;
+}
+
+#backButton {
+  background-color: #34485E;
+  color:#FFFFFF;
+  width:100%;
+    border: none;
+    font-family: inherit;
+    font-size: 24pt;
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+    /*position: relative;*/
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    text-align: left;
+    height:71px;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    bottom:0;
+
+}
+
+#sendButton{
+  background-color: #FFFFFF;
+  color: #E68A3A;
+  	border: none;
+  	font-family: inherit;
+  	font-size: 18pt;
+    font-weight: 300;
+  	/*cursor: pointer;*/
+  	padding: 12px 80px;
+  	display: inline-block;
+    margin: 20px auto;
+    display: block;
+    width: 80%;
+    letter-spacing: 1px;
+
+  	outline: none;
+  	/*position: relative;*/
+  	-webkit-transition: all 0.2s;
+  	-moz-transition: all 0.2s;
+  	transition: all 0.2s;
+}
+
+
+ul {
+    /*list-style: none;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: left;*/
+}
+
+li {
+  background-color: #FFFFFF;
+  color: #AD64CB;
+    border: none;
+    font-family: inherit;
+    font-size: 18pt;
+    font-weight: 300;
+    /*cursor: pointer;*/
+    padding: 12px 80px;
+    /*display: inline-block;*/
+    margin: 15px 30px;
+    letter-spacing: 1px;
+
+    outline: none;
+    /*position: relative;*/
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    /*margin-left: -40px;
+    padding: 5px;
+    padding-top: 10px;*/
+    /*min-height: 50px;
+    border-top: 1px solid #d3d3d3;
+    font-size: 0.9em;*/
+}
+
+/*button {
+    -webkit-appearance: none;
+    font-size: 1.5em;
+    border-radius: 0;
+}*/
+
+#weatherPage{
+  background-color: #E68A3A;
+  height:548px;
+}
+
+#inputDiv{
+  width:100%;
+}
+
+#messageInput{
+  background-color:#E68A3A;
+  color:#FFFFFF;
+  /*padding: 12px 80px;*/
+  /*display: inline-block;*/
+  text-align:center center;
+  /*margin: 15px 30px;*/
+  border:none;
+  border-radius: 0;
+  border-bottom: solid 2px #FFFFFF;
+  transition: border 0.3s;
+  font-family: inherit;
+  font-size: 18pt;
+  font-weight: 300;
+  margin: 0 auto;
+  display: block;
+}
+
+.focus {
+  border-bottom: solid 2px #FFFFFF;
+}
+
+#resultDiv {
+  background-color: inherit;
+  color: #FFFFFF;
+    border: none;
+    font-family: inherit;
+    font-size: 18pt;
+    font-weight: 300;
+    /*cursor: pointer;*/
+    padding: 0px;
+    /*display: inline-block;*/
+    margin: 15px 30px;
+    letter-spacing: 1px;
+
+    outline: none;
+    /*position: relative;*/
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
